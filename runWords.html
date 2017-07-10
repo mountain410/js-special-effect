@@ -20,7 +20,7 @@
        0%{visibility:visible;}
        100%{visibility:hidden;}
     }
-    
+
   </style>
  </head>
  <body>
@@ -64,7 +64,7 @@
               break;
           }
           typeWriter.innerHTML=code.substring(0,pos);
-          setTimeout(typeWriting,100);
+          setTimeout(arguments.callee,100);
         }else{
           typeWriter.classList.add("end");
         }
